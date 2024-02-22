@@ -70,15 +70,18 @@ body {
 .option_image img {
   width: 50px;
 }
+
 .option_images {
   display: flex;
   align-items: center;
   margin-top: 2.5rem;
   justify-content: space-between;
 }
+
 .container.start .option_images {
   pointer-events: none;
 }
+
 .option_image {
   display: flex;
   flex-direction: column;
@@ -87,15 +90,19 @@ body {
   cursor: pointer;
   transition: opacity 0.3s ease;
 }
+
 .option_image:hover {
   opacity: 1;
 }
+
 .option_image.active {
   opacity: 1;
 }
+
 .option_image img {
   pointer-events: none;
 }
+
 .option_image p {
   color: #7d2ae8;
   font-size: 1.235rem;
